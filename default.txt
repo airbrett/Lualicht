@@ -1,0 +1,10 @@
+lua-5.4.4
+Irrlicht-svn
+assimp-5.2.5
+IrrAssimp-daba836
+Chipmunk-7.0.3
+moonchipmunk-d1963dd
+openal-soft-1.22.2
+moonal-43d515a
+libsndfile-1.2.0
+moonsndfile-36646b8
