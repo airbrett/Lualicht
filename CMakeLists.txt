@@ -6,6 +6,7 @@ find_package(Lua REQUIRED)
 find_package(Irrlicht REQUIRED)
 find_package(Assimp REQUIRED)
 find_package(IrrAssimp REQUIRED)
+find_package(sol2 REQUIRED)
 
 add_library(Lualicht SHARED
 	Core.h
@@ -39,4 +40,5 @@ target_link_libraries(Lualicht
 	Irrlicht
 	assimp::assimp
 	IrrAssimp
+	sol2
 )

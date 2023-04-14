@@ -1,10 +1,11 @@
 lua-5.4.4
 Irrlicht-svn
-assimp-5.2.5
+assimp-5.2.5,-DBUILD_SHARED_LIBS=OFF
 IrrAssimp-daba836
-Chipmunk-7.0.3
+Chipmunk-7.0.3,-DBUILD_SHARED=OFF;-DINSTALL_STATIC=ON;-DBUILD_DEMOS=OFF
 moonchipmunk-d1963dd
-openal-soft-1.22.2
+openal-soft-1.22.2,-DALSOFT_UTILS=OFF;-DALSOFT_EXAMPLES=OFF
 moonal-43d515a
-libsndfile-1.2.0
+libsndfile-1.2.0,-DBUILD_SHARED_LIBS=ON;-DBUILD_PROGRAMS=OFF;-DBUILD_EXAMPLES=OFF
 moonsndfile-36646b8
+sol2-3.3.0
