@@ -106,7 +106,9 @@ sol::table InitScene(sol::this_state L)
 		"getID", &irr::scene::ISceneNode::getID,
 		"setName", sol::resolve<void (const irr::c8*)>(&irr::scene::ISceneNode::setName),
 		"getName", &irr::scene::ISceneNode::getName,
-		"addAnimator", &irr::scene::ISceneNode::addAnimator
+		"addAnimator", &irr::scene::ISceneNode::addAnimator,
+		"setMaterialFlag", &irr::scene::ISceneNode::setMaterialFlag,
+		"setMaterialType", &irr::scene::ISceneNode::setMaterialType
 	);
 
 	scene.new_usertype<irr::scene::ICameraSceneNode>(
